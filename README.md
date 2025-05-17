@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-*DESCRIPTION*: 
+#DESCRIPTION: 
 In digital design, an Arithmetic Logic Unit (ALU) is a central component in any processor, responsible for executing arithmetic and logical operations. In this project, a simple 8-bit ALU was implemented using Verilog and simulated using Icarus Verilog within Visual Studio Code (VS Code). This approach offers an efficient and user-friendly environment for developing and testing digital circuits, especially for students and beginners learning hardware description languages.
 
 The ALU was designed in a Verilog file named `alu.v`. It accepts two 8-bit input operands, A and B, a 3-bit control input called `ALU_Sel`, and produces an 8-bit output `ALU_Out`. The control input determines which operation the ALU performs. The supported operations include addition, subtraction, bitwise AND, bitwise OR, bitwise NOT (on operand A), and division. Each operation is associated with a specific 3-bit control code. The design includes basic error handling for division, ensuring that division by zero does not cause runtime issues by returning zero in such cases.
@@ -23,4 +23,9 @@ The development and simulation were carried out in Visual Studio Code, a widely 
 
 This process demonstrates a practical and accessible way to design and test digital hardware components. Using Icarus Verilog and Visual Studio Code provides a lightweight, free, and powerful environment for Verilog development. It enables users to understand the behavior of digital systems through code and simulation, reinforcing theoretical concepts with practical application. By expanding the ALU with additional operations like multiplication, logical XOR, or shift operations, or by introducing flags for overflow and zero detection, one can enhance the complexity and functionality of the design. This setup is especially valuable in academic settings, where learners benefit from immediate feedback and visualization during the simulation of their digital designs.
 
-**Conclusion:** The simulation of a Verilog-based ALU using Icarus Verilog and Visual Studio Code provides an efficient and educational approach for learning and verifying digital logic designs. It bridges theoretical learning with hands-on practice, making it ideal for students and enthusiasts in digital electronics. The integration of waveform analysis tools like GTKWave further enriches the debugging and verification process, ensuring the accuracy and reliability of the ALU functionality.
+Conclusion: The simulation of a Verilog-based ALU using Icarus Verilog and Visual Studio Code provides an efficient and educational approach for learning and verifying digital logic designs. It bridges theoretical learning with hands-on practice, making it ideal for students and enthusiasts in digital electronics. The integration of waveform analysis tools like GTKWave further enriches the debugging and verification process, ensuring the accuracy and reliability of the ALU functionality.
+
+
+#OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/c8eeaf54-f621-4bfe-a137-00f4c8bb632f)
