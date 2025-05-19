@@ -28,4 +28,4 @@ Conclusion: The simulation of a Verilog-based ALU using Icarus Verilog and Visua
 
 #OUTPUT:
 
-![Image](https://github.com/user-attachments/assets/c8eeaf54-f621-4bfe-a137-00f4c8bb632f)
+![Image](https://github.com/user-attachments/assets/eba55446-8b75-4a68-b44f-a737303de8df)
